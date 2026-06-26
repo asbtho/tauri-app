@@ -1,0 +1,8 @@
+# Handle line endings automatically for text files
+* text=auto
+
+# Force LF for lockfiles and configs to keep Rust/Node tools happy
+*.lock text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
