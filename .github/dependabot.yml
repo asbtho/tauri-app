@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # Cargo configuration (Tauri Rust backend)
+  - package-ecosystem: "cargo"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # npm configuration (Tauri Web frontend)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
